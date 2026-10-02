@@ -1,3 +1,5 @@
+// primitive
+// basic
 const age = 25;
 const dept = 'CSE';
 const isPassed = true;
@@ -6,6 +8,8 @@ const subj = ['CSE-101', 'CSE-102', 'MATH-121'];
 // console.log(isDeveloper);
 const bottle_color = 'white';
 const bottle_price = 25;
+
+// non-primitive
 
 // object
 const bottle = {
