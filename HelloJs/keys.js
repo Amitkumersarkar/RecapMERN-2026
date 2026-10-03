@@ -5,5 +5,5 @@ const computer = {
     ssd: '512 GB',
     monitor: 'Mac Studio'
 }
-const keys = Object.keys(computer);
-console.log(keys);
+const values = Object.values(computer);
+console.log(values);
