@@ -8,4 +8,5 @@ const phone = {
 }
 for (const prop in phone) {
     console.log(prop);
+    console.log(phone[prop])
 }
