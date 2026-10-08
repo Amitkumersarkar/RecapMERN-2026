@@ -5,3 +5,10 @@ const products = [
     { name: 'iceCream', price: 50 },
 
 ]
+
+function getShoppingTotal(products) {
+    for (const product of products)
+        console.log(product);
+}
+const total = getShoppingTotal(products);
+console.log('total cost : ', total);
