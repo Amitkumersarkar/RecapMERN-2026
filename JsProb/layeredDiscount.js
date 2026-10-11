@@ -22,3 +22,4 @@ function layeredDiscountTotal(quantity) {
         return total;
     }
 }
+console.log(quantity);
