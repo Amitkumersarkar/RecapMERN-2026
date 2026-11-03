@@ -8,13 +8,18 @@ const student = {
 }
 
 const liCollection = document.getElementsByTagName('li');
-console.log(liCollection);
+// console.log(liCollection);
 for (const li of liCollection) {
     console.log(li.innerText);
 }
 
 const allHeading = document.getElementsByTagName('h1');
-console.log(allHeading);
+// console.log(allHeading);
 for (const head of allHeading) {
     console.log(head.innerText);
 }
+
+// food title
+const foodTitleH1 = document.getElementById('food-title');
+console.log(foodTitleH1.innerText);
+foodTitleH1.innerText = 'Foods i love to eat';
