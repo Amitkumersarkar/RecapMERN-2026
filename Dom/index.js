@@ -1,4 +1,3 @@
-// console.log('Hello from js');
 const student = {
     name: 'amit',
     id: 283,
@@ -19,7 +18,6 @@ for (const head of allHeading) {
     console.log(head.innerText);
 }
 
-// food title
 const foodTitleH1 = document.getElementById('food-title');
 console.log(foodTitleH1.innerText);
 foodTitleH1.innerText = 'Foods i love to eat';
